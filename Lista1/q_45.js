@@ -18,9 +18,11 @@ while (saque<valor) {
             saque+=dez
             if (saque>valor){
                 saque-=dez
+                while (saque<valor) {
             }
         }
     }
 }
+
 
 console.log("Sua entrada deve ser de", entrada, "com 2 parcelas de", parcelas)
